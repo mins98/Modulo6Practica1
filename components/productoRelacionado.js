@@ -12,7 +12,7 @@ Vue.component(
                             <div class="producto-relacionado-precio">Precio: {{producto.precio}} BOB</div>
                         <div>
                             <div>
-                                <div v-for="color of producto.colores" class="color-box" :style="color"></div>
+                                <div v-for="color of producto.colores" class="color-box"  :style="{'background-color':color }"></div>
                             </div>
                         </div>
                     </div>
